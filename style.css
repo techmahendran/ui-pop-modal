@@ -22,6 +22,10 @@ body {
   text-align: center;
 }
 
+h3 {
+  font-size: 1.6rem;
+}
+
 .modal {
   display: none;
   position: fixed;
@@ -33,6 +37,9 @@ body {
   width: 100%;
   height: 100%;
   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.3), 0 7px 20px 0 rgba(0, 0, 0, 0.3);
+}
+.modal p {
+  font-size: 1.5rem;
 }
 .pop {
   background: #fff;
@@ -48,7 +55,7 @@ body {
   padding: 0.3rem;
 }
 .closebtn:hover {
-  background-color: red;
+  background-color: rgb(255, 217, 0);
 }
 @media screen and (max-width: 520px) {
   .op {
