@@ -59,7 +59,16 @@ h3 {
 }
 @media screen and (max-width: 500px) {
   .op {
-    margin-left: 12rem;
+    margin-left: 10rem;
+  }
+  .pop {
+    width: 30%;
+  }
+  .pop h1 {
+    font-size: 1.5rem;
+  }
+  h3 {
+    font-size: 1.5rem;
   }
   .modal {
     margin: 0;
